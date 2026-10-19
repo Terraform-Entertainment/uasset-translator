@@ -1,4 +1,4 @@
-﻿# UAsset Translator
+# UAsset Translator
 
 **Let your AI coding agent read and change Unreal Engine Blueprints and assets. No editor required.**
 
@@ -6,7 +6,7 @@ Ask Claude Code (or any agent that runs commands) about your project in your own
 "add a sprint on Shift", "put five lights along the corridor". The agent reads the assets as text, makes the change,
 and checks it in the engine. There are no commands for you to learn.
 
-![The same Blueprint before and after one layout command](https://github.com/terraform-entertainment/uasset-translator/releases/download/v0.2.2/before-after.png)
+![The same Blueprint before and after one layout command](https://github.com/terraform-entertainment/uasset-translator/releases/latest/download/before-after.png)
 
 **[Quick Start](https://terraformentertainment.com/uassettranslator/quickstart/)** Â·
 **[Documentation](https://terraformentertainment.com/uassettranslator/docs/)** Â·
