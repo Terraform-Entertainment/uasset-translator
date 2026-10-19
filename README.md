@@ -1,4 +1,4 @@
-# UAsset Translator
+﻿# UAsset Translator
 
 **Let your AI coding agent read and change Unreal Engine Blueprints and assets. No editor required.**
 
@@ -6,15 +6,15 @@ Ask Claude Code (or any agent that runs commands) about your project in your own
 "add a sprint on Shift", "put five lights along the corridor". The agent reads the assets as text, makes the change,
 and checks it in the engine. There are no commands for you to learn.
 
-![The same Blueprint before and after one layout command](https://github.com/terraform-entertainment/uasset-translator/releases/download/v0.2.1/before-after.png)
+![The same Blueprint before and after one layout command](https://github.com/terraform-entertainment/uasset-translator/releases/download/v0.2.2/before-after.png)
 
-**[Quick Start](https://terraformentertainment.com/uassettranslator/quickstart/)** ·
-**[Documentation](https://terraformentertainment.com/uassettranslator/docs/)** ·
+**[Quick Start](https://terraformentertainment.com/uassettranslator/quickstart/)** Â·
+**[Documentation](https://terraformentertainment.com/uassettranslator/docs/)** Â·
 **[Changelog](CHANGELOG.md)**
 
 ## Install
 
-Claude Code on Windows, in a terminal:
+**Claude Code**, in a terminal (the plugin brings the tool with it):
 
 ```
 claude plugin install uasset-translator --marketplace terraform-entertainment/uasset-translator
@@ -22,15 +22,26 @@ claude plugin install uasset-translator --marketplace terraform-entertainment/ua
 
 Then open your Unreal project folder in Claude Code and start talking.
 
-Other agents (Cursor, Codex, Antigravity, Copilot, Windsurf...), in PowerShell:
+**Other agents** (Cursor, Codex, Antigravity, Copilot, Windsurf...): install the `uasset` command one of three ways.
+Each puts it on your PATH, and running it again updates it.
 
-```
-irm https://github.com/terraform-entertainment/uasset-translator/releases/latest/download/install.ps1 | iex
-```
+1. **PowerShell**, one line:
 
-It installs `uasset.exe` and puts it on your PATH (run it again to update). Then, in each Unreal project, run
-`uasset agents-md` to give your agent the instructions. Or download the zip from [Releases](../../releases) and follow
-[Install](https://terraformentertainment.com/uassettranslator/docs/#install) in the documentation.
+   ```
+   irm https://github.com/terraform-entertainment/uasset-translator/releases/latest/download/install.ps1 | iex
+   ```
+
+2. **winget** (once Microsoft's review of the listing is done):
+
+   ```
+   winget install TerraformEntertainment.UassetTranslator
+   ```
+
+3. **Installer**: download `uasset-translator-<version>-setup.exe` from [Releases](../../releases/latest) and run it.
+   No administrator rights needed, and it can add the Claude Code plugin too. It isn't code-signed yet, so Windows
+   may say "Windows protected your PC": choose **More info**, then **Run anyway**. Remove it in Settings > Apps.
+
+Then, in each Unreal project, run `uasset agents-md` to give your agent the instructions.
 
 Windows 10 or 11, x64. Project files saved by Unreal Engine 5.8. The engine check needs the project's Unreal Engine
 version installed.

@@ -2,6 +2,15 @@
 
 All notable changes to UassetTranslator. Versions follow [Semantic Versioning](https://semver.org).
 
+## 0.2.2 – 2026-10-19
+
+- Three ways to install, pick one: the one-line PowerShell command, `winget install TerraformEntertainment.UassetTranslator`,
+  or the new `uasset-translator-0.2.2-setup.exe`. The installer needs no administrator rights: it installs for your
+  Windows user, adds `uasset` to your PATH, appears in Settings > Apps with an uninstaller, and offers to add the
+  Claude Code plugin when Claude Code is installed. It isn't code-signed yet, so Windows may show "Windows protected
+  your PC": choose More info, then Run anyway.
+- `uasset agents-md` finds its instructions when `uasset` runs through a link, as winget installs it.
+
 ## 0.2.1 – 2026-10-19
 
 0.2.0 was never published; everything below since 0.1.0 is in 0.2.1.

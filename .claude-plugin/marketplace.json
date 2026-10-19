@@ -13,8 +13,8 @@
       "tags": ["unreal-engine", "ue5", "blueprints", "uasset", "gamedev"],
       "source": {
         "source": "archive",
-        "url": "https://github.com/terraform-entertainment/uasset-translator/releases/download/v0.2.1/uasset-translator-plugin-0.2.1.zip",
-        "sha256": "e03052115f3d8d3f28ae231e3e3a4934f1788be4e8f3af1cddb6aa2168efea20"
+        "url": "https://github.com/terraform-entertainment/uasset-translator/releases/download/v0.2.2/uasset-translator-plugin-0.2.2.zip",
+        "sha256": "0513fdf99d6b28943e34425d9a9469decb8a80c71aba6c9a60197b3ad4c595f6"
       }
     }
   ]
