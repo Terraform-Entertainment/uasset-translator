@@ -1,0 +1,21 @@
+{
+  "name": "terraform-entertainment",
+  "description": "Tools by Terraform Entertainment for AI-assisted Unreal Engine development",
+  "owner": {
+    "name": "Terraform Entertainment",
+    "url": "https://github.com/terraform-entertainment"
+  },
+  "plugins": [
+    {
+      "name": "uasset-translator",
+      "description": "Read and edit Unreal Engine Blueprints and assets straight from .uasset files, without opening the editor. Windows.",
+      "category": "game-development",
+      "tags": ["unreal-engine", "ue5", "blueprints", "uasset", "gamedev"],
+      "source": {
+        "source": "archive",
+        "url": "https://github.com/terraform-entertainment/uasset-translator/releases/download/v0.2.1/uasset-translator-plugin-0.2.1.zip",
+        "sha256": "e03052115f3d8d3f28ae231e3e3a4934f1788be4e8f3af1cddb6aa2168efea20"
+      }
+    }
+  ]
+}
