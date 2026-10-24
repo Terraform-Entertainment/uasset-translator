@@ -1,9 +1,6 @@
 # UassetTranslator End User License Agreement
 
-> **Draft.** Prepared as a starting point. Have a lawyer review it, and complete the governing law and contact
-> sections, before the first sale.
-
-Version 1.0, effective 2026-10-09.
+Version 1.1, effective 2026-10-23.
 
 This agreement is between you (an individual, or the company you act for) and Terraform Entertainment ("we", "us").
 It covers the UassetTranslator software, including the `uasset` program, the Claude Code plugin and skill, and their
@@ -12,10 +9,10 @@ not accept it, do not install or use the Software.
 
 ## 1. Editions
 
-- **Free features**: reading assets and discovering engine types: the `show`, `list`, `props`, `inspect`, `verify`,
-  `find`, `describe` and `catalog` commands.
-- **Pro features**: changing and checking assets: the `set-pin`, `link`, `unlink`, `move`, `comment`, `set-var`,
-  `copy-node`, `delete-node`, `add-node`, `duplicate` and `validate` commands, and any feature we later mark as Pro.
+- **Free features**: reading and inspecting assets and discovering engine types, for example the `show`, `list`,
+  `props`, `inspect`, `verify`, `find`, `describe` and `catalog` commands.
+- **Pro features**: every command that creates, changes, builds, imports or validates assets or project files, and
+  any feature we later mark as Pro. The Software tells you when a command needs a Pro license.
 - **Trial**: the Pro features work for 14 days from their first use on a computer, for evaluation only.
 
 ## 2. License
@@ -90,7 +87,9 @@ This agreement ends automatically if you breach it. You must then stop using the
 
 ## 11. General
 
-- Governing law and courts: **[to be completed]**.
+- Governing law and courts: this agreement is governed by the laws of the State of Delaware, USA, without regard to
+  its conflict-of-laws rules. The United Nations Convention on Contracts for the International Sale of Goods does not
+  apply. Disputes go to the state and federal courts located in Delaware, and both parties accept their jurisdiction.
 - This is the entire agreement about the Software and replaces earlier understandings. If a provision is
   unenforceable, the rest stays in effect.
 - Consumer rights that the law gives you and that cannot be waived are not affected.

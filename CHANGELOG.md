@@ -2,6 +2,12 @@
 
 All notable changes to UassetTranslator. Versions follow [Semantic Versioning](https://semver.org).
 
+## 0.2.3 – 2026-10-23
+
+- The license agreement (EULA 1.1) is final: no longer a draft. It is governed by the laws of Delaware, USA, and its
+  list of Pro features now describes them in general terms (every command that creates, changes, builds, imports or
+  validates assets or project files) instead of naming the commands of an early version. The software is unchanged.
+
 ## 0.2.2 – 2026-10-19
 
 - Three ways to install, pick one: the one-line PowerShell command, `winget install TerraformEntertainment.UassetTranslator`,

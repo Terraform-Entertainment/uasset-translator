@@ -8,8 +8,8 @@ and checks it in the engine. There are no commands for you to learn.
 
 ![The same Blueprint before and after one layout command](https://github.com/terraform-entertainment/uasset-translator/releases/latest/download/before-after.png)
 
-**[Quick Start](https://terraformentertainment.com/uassettranslator/quickstart/)** Â·
-**[Documentation](https://terraformentertainment.com/uassettranslator/docs/)** Â·
+**[Quick Start](https://terraformentertainment.com/uassettranslator/quickstart/)** ·
+**[Documentation](https://terraformentertainment.com/uassettranslator/docs/)** ·
 **[Changelog](CHANGELOG.md)**
 
 ## Install
